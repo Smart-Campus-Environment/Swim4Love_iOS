@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72A6CD012099867300485ADC /* QRCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A6CD002099867300485ADC /* QRCameraViewController.swift */; };
 		72DB00522094361F00FB0983 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DB00512094361F00FB0983 /* AppDelegate.swift */; };
-		72DB00542094361F00FB0983 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DB00532094361F00FB0983 /* ViewController.swift */; };
+		72DB00542094361F00FB0983 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DB00532094361F00FB0983 /* NewsViewController.swift */; };
 		72DB00572094361F00FB0983 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DB00552094361F00FB0983 /* Main.storyboard */; };
 		72DB00592094361F00FB0983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72DB00582094361F00FB0983 /* Assets.xcassets */; };
 		72DB005C2094361F00FB0983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DB005A2094361F00FB0983 /* LaunchScreen.storyboard */; };
 		72DB00672094361F00FB0983 /* Swim4LoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DB00662094361F00FB0983 /* Swim4LoveTests.swift */; };
 		72DB00722094361F00FB0983 /* Swim4LoveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DB00712094361F00FB0983 /* Swim4LoveUITests.swift */; };
+		72DB0080209479CF00FB0983 /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DB007F209479CF00FB0983 /* LeaderboardViewController.swift */; };
+		72DB008220947D0700FB0983 /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DB008120947D0700FB0983 /* PersonalViewController.swift */; };
+		72DB008420948E4500FB0983 /* PersonalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DB008320948E4500FB0983 /* PersonalDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		72A6CD002099867300485ADC /* QRCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCameraViewController.swift; sourceTree = "<group>"; };
 		72DB004E2094361F00FB0983 /* Swim4Love.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swim4Love.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72DB00512094361F00FB0983 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		72DB00532094361F00FB0983 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72DB00532094361F00FB0983 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		72DB00562094361F00FB0983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72DB00582094361F00FB0983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72DB005B2094361F00FB0983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,9 @@
 		72DB006D2094361F00FB0983 /* Swim4LoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swim4LoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72DB00712094361F00FB0983 /* Swim4LoveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swim4LoveUITests.swift; sourceTree = "<group>"; };
 		72DB00732094361F00FB0983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72DB007F209479CF00FB0983 /* LeaderboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
+		72DB008120947D0700FB0983 /* PersonalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
+		72DB008320948E4500FB0983 /* PersonalDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +106,12 @@
 			isa = PBXGroup;
 			children = (
 				72DB00512094361F00FB0983 /* AppDelegate.swift */,
-				72DB00532094361F00FB0983 /* ViewController.swift */,
+				72DB00532094361F00FB0983 /* NewsViewController.swift */,
+				72DB007F209479CF00FB0983 /* LeaderboardViewController.swift */,
 				72DB00552094361F00FB0983 /* Main.storyboard */,
+				72A6CD002099867300485ADC /* QRCameraViewController.swift */,
+				72DB008320948E4500FB0983 /* PersonalDetailViewController.swift */,
+				72DB008120947D0700FB0983 /* PersonalViewController.swift */,
 				72DB00582094361F00FB0983 /* Assets.xcassets */,
 				72DB005A2094361F00FB0983 /* LaunchScreen.storyboard */,
 				72DB005D2094361F00FB0983 /* Info.plist */,
@@ -259,7 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72DB00542094361F00FB0983 /* ViewController.swift in Sources */,
+				72DB00542094361F00FB0983 /* NewsViewController.swift in Sources */,
+				72DB008420948E4500FB0983 /* PersonalDetailViewController.swift in Sources */,
+				72DB0080209479CF00FB0983 /* LeaderboardViewController.swift in Sources */,
+				72DB008220947D0700FB0983 /* PersonalViewController.swift in Sources */,
+				72A6CD012099867300485ADC /* QRCameraViewController.swift in Sources */,
 				72DB00522094361F00FB0983 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
